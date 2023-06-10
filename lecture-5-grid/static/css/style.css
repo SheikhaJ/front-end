@@ -1,0 +1,37 @@
+.parent{
+    height: 250px;
+    width: 70%;
+    margin: 5% auto;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: aliceblue;
+}
+
+.item1{
+    background: url(../images/download11.jpg) no-repeat;
+    background-size: 100% 100%;
+    grid-row: 1/4;
+    grid-column: 1/4;
+}
+
+.item2{
+    background: url(../images/images.jpg) no-repeat;
+    background-size:100%;
+    grid-row: 1/7;
+}
+
+.item3{
+    background: url(../images/download3.jpg);
+    background-size: 100% 100%;
+    grid-row: 4/7;
+}
+
+.item4{
+    background: url(../images/images4.jpg);
+    background-size: 100% 100%;
+    grid-row: 4/7;
+    grid-column: 4/2;
+}
+
+
